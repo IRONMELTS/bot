@@ -14,7 +14,7 @@ reply_id={}
 async def on_ready():
 
     print("BOT is ready")
-    await bot.change_presence(activity=discord.Game(name="~~~ready~~~"))
+    await bot.change_presence(activity=discord.Game(name="🟢🟢🟢🟢🟢🟢"))
     time.sleep(3)
     await bot.change_presence(activity=discord.Game(name=".help"))
 
